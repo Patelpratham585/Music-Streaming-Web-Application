@@ -16,6 +16,7 @@ function App() {
     setTracks(convertedData.tracks.items);
     setIsLoading(false);
   }
+  
 
   useEffect(() => {
     getTracks();
